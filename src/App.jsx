@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from './Sidebar'
+import Sidebar from './sidebar.jsx'
 import Feed from './Feed'
 import Suggestions from './Suggestions'
 
