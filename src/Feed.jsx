@@ -2,7 +2,7 @@ import React from 'react'
 import Stories from './Stories'
 import Posts from './Posts'
 
-function feed() {
+function Feed() {
   return (
     <div>
       <div><Stories/></div>
@@ -11,4 +11,5 @@ function feed() {
   )
 }
 
-export default feed
+export default Feed
+
