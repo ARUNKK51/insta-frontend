@@ -9,7 +9,7 @@ function Suggestions() {
   const Navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:3001/profile")
+    fetch("https://insta-backend-ojox.onrender.com/profile")
       .then((data) => data.json())
       .then((data) => setprofile(data))
       .catch((err) => console.log(err));
@@ -63,3 +63,4 @@ function Suggestions() {
 }
 
 export default Suggestions
+
