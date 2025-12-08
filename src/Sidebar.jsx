@@ -6,7 +6,7 @@ function Sidebar() {
   return (
     <div className='m-3 position-fixed'>
     <div className='sidebar d-flex flex-column gap-3'>
-      <img  className="logo-text"src="src\assets\Instagram_logo.svg.png"  />
+      <img  className="logo-text"src="\assets\Instagram_logo.svg.png"  />
        <div><i className="bi bi-house-door-fill"></i>Home</div>
        <div><i className="bi bi-search"></i>Search</div>
        <div><i className="bi bi-compass-fill"></i>Explore</div>
@@ -26,3 +26,4 @@ function Sidebar() {
 }
 
 export default Sidebar;
+
