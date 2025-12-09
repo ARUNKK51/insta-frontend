@@ -27,9 +27,9 @@ fetch(`https://insta-backend-ojox.onrender.com/story/${id}`)
   return (
     <div className='justify-content-center align-items-center'>
       {story ? <div className='text-center '>
-        <Link to={`https://insta-backend-ojox.onrender.com/story/${Number(id)-1}/${tot}`}><i className="bi bi-arrow-left-circle-fill"></i></Link>
+        <Link to={`/story/${Number(id)-1}/${tot}`}><i className="bi bi-arrow-left-circle-fill"></i></Link>
         <img src={story.image} alt="story" className='vh-100' />
-        <Link to={`https://insta-backend-ojox.onrender.com/story/${Number(id)+1}/${tot}`}><i className="bi bi-arrow-right-circle-fill"></i></Link>
+        <Link to={`/story/${Number(id)+1}/${tot}`}><i className="bi bi-arrow-right-circle-fill"></i></Link>
         </div> : 
         <div>loading 
              </div> }
@@ -38,4 +38,5 @@ fetch(`https://insta-backend-ojox.onrender.com/story/${id}`)
 }
 
 export default Viewstory
+
 
