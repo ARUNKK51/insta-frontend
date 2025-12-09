@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function Sidebar() {
   let Navigate = useNavigate();
   return (
-    <div className='m-3 position-fixed'>
+    <div className='m-3 position-relative'>
     <div className='sidebar d-flex flex-column gap-3'>
       <img  className="logo-text"src="\assets\Instagram_logo.svg.png"  />
        <div><i className="bi bi-house-door-fill"></i>Home</div>
@@ -26,4 +26,5 @@ function Sidebar() {
 }
 
 export default Sidebar;
+
 
